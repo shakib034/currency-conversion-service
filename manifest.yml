@@ -1,5 +1,5 @@
 applications:
-- name: currency-conversion-service
+- name: currency-conversion-service-shak
   path: target\currency-conversion-service.jar
   domain: cfapps.io
   memory: 512M
