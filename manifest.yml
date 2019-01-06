@@ -1,4 +1,6 @@
 applications:
 - name: web-application
-  path: build/libs/web-application-1.0.0.BUILD-SNAPSHOT.war
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  path: target\currency-conversion-service.jar
+  domain: cfapps.io
+  memory: 512M
+  instances: 1
